@@ -1,5 +1,5 @@
 import React from 'react';
-import availableImg from '../../pages/Archive/ArchiveImg';
+import availableImg from '../constants/archiveImg';
 import './Carousel.scss';
 
 const CarouselImg = () => {

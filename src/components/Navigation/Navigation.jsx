@@ -2,7 +2,6 @@ import React from 'react'
 import { NavLink } from "react-router-dom";
 import archiveImg from "../../assets/personal/archiveIcon.jpg"
 import fashionImg from "../../assets/homepageIcon.jpg"
-// import contactImg from "../../assets/contactIcon.jpg"
 import contactImg2 from "../../assets/fashionFront/fashion_0005.jpg"
 import './Navigation.scss'
 
