@@ -1,0 +1,31 @@
+.carousel{
+    position:relative;
+    height: 100vh;
+    margin: auto;
+    &__img{
+      position:absolute;
+      top: 0; bottom: 0; left: 0; right: 0;
+      margin: auto;
+      max-height: 80vh;
+      max-width: 50vw; 
+      animation: taadaa 0.5s;
+    }
+    @keyframes taadaa { 
+        0% { opacity: 0.5; }
+        100% { opacity: 1; }
+    }
+}
+
+.carousel-prev:before {
+  background-image: url(arrowLeft.svg);
+}
+.carousel-next:before {
+  background-image: url(arrowRight.svg);
+}
+
+@media only screen and (max-width: 480px){
+  .carousel__img{
+    max-height: 90vh;
+    max-width: 75vw; 
+  }
+}

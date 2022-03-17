@@ -1,0 +1,14 @@
+.loader__container--img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 100px;
+    animation: load 4s;
+}
+
+@keyframes load { 
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+}

@@ -1,0 +1,129 @@
+.homepage{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: 700;
+    &__nav-block{
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        margin-left: 30px;
+    }
+    &__logo {
+        text-transform: uppercase;
+        font-size: 20px;
+        letter-spacing: 5px; 
+        font-weight: 800;
+        margin-bottom: 10px;
+        animation: taadaa 1.5s;
+    }
+    @keyframes taadaa { 
+        0% { opacity: 0.5; }
+        100% { opacity: 1; }
+    }
+    &__background{
+        position:fixed;
+        right: 0;
+        width: 70vw; 
+        height: 100vh;
+        right: -160px;
+        top: -320px;
+        &--image{
+            width: 100%;
+            height:auto;
+            object-fit: cover;
+            animation: load 1.5s;
+        }
+        @keyframes load { 
+            0% { opacity: 0.5; }
+            100% { opacity: 1; }
+        }
+        
+    }
+}
+
+.homepage a, .homepage__tablet a{
+    text-decoration: none;
+    color: #000000;
+    transition: all .2s ease-in;
+  }
+  
+.homepage a:hover, .homepage__tablet a:hover{
+    letter-spacing: 2px;
+    color: #6a7888;
+}
+
+.homepage__tablet{
+    display:none;
+}
+
+@media only screen and (max-width: 940px){
+    .homepage__background{
+        top: -64px;
+    }
+}
+@media only screen and (max-width: 1024px){
+    .homepage{
+        flex-direction: column;
+        &__nav-block{
+            margin-left: 0px;
+        }
+        &__navigation-section-img{
+            display: flex;
+            flex-direction: row;
+        }
+        &__navigation-section{
+            text-align: center;
+            align-items: center;
+            margin: auto;
+            width: 100%;
+        }
+        &__logo{
+            text-align: center;
+            width: 100%;
+            margin: auto;
+        }
+        &__background{
+        display: flex;
+        position:unset;
+        // right: 0;
+        width: 100% ;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        
+        &--image{
+            align-items: center;
+            justify-content: center;
+            width: 80vw;
+            min-height: 100%;
+            margin: 16px auto;
+            position: unset;
+            text-align: center;
+            justify-content: center;
+            top: 320px;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 480px){
+    .homepage{
+        display:flex;
+    }
+    .homepage__tablet{
+        display:none;
+    }
+    .homepage__background{
+        display: none;
+    }
+    .homepage__nav-block{
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 340px){
+    .homepage__logo{
+       font-size: 16px;
+    }
+}

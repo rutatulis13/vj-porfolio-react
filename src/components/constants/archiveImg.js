@@ -1,0 +1,34 @@
+import archiveIcon from '../../assets/personal/archiveIcon.jpg';
+import personal from '../../assets/personal/personal.jpg';
+import personal1 from '../../assets/personal/personal1.jpg';
+import personal2 from '../../assets/personal/personal2.jpg';
+import personal3 from '../../assets/personal/personal3.jpg';
+import personal4 from '../../assets/personal/personal4.jpg';
+import personal5 from '../../assets/personal/personal5.jpg';
+import personal6 from '../../assets/personal/personal6.jpg';
+import personal8 from '../../assets/personal/personal8.jpg';
+import personal9 from '../../assets/personal/personal9.jpg';
+import personal10 from '../../assets/personal/personal10.jpg';
+import personal11 from '../../assets/personal/personal11.jpg';
+import personal12 from '../../assets/personal/personal12.jpg';
+import personal13 from '../../assets/personal/personal13.jpg';
+import personal14 from '../../assets/personal/personal14.jpg';
+import personal15 from '../../assets/personal/personal15.jpg';
+import personal16 from '../../assets/personal/personal16.jpg';
+import personal17 from '../../assets/personal/personal17.jpg';
+import personal18 from '../../assets/personal/personal18.jpg';
+import personal19 from '../../assets/personal/personal19.jpg';
+import personal20 from '../../assets/personal/personal20.jpg';
+import personal21 from '../../assets/personal/personal21.jpg';
+import personal22 from '../../assets/personal/personal22.jpg';
+import personal23 from '../../assets/personal/personal23.jpg';
+import personal24 from '../../assets/personal/personal24.jpg';
+import personal26 from '../../assets/personal/personal26.jpg';
+import personal27 from '../../assets/personal/personal27.jpg';
+import personal28 from '../../assets/personal/personal28.jpg';
+import personal29 from '../../assets/personal/personal29.jpg';
+import personal30 from '../../assets/personal/personal30.jpg';
+
+const availableImg = [archiveIcon, personal, personal1, personal2, personal3, personal4, personal5, personal6, personal8, personal9, personal10, personal11, personal12, personal13, personal14, personal15, personal16, personal17, personal18, personal19, personal20, personal21, personal22, personal23, personal24, personal26, personal27, personal28, personal29, personal30];
+
+export default availableImg;
