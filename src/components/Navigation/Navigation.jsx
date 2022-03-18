@@ -21,9 +21,9 @@ const Navigation = () => {
       </ul>
       <ul className="navbar__link-mobile">
         <li className="navbar__link-mobile--item">
-          <NavLink to="/archive">
+          <NavLink to="/personal projects">
             <div className="navbar__link-mobile--item-img" style={{ "backgroundImage" : `url(${archiveImg})` }}>
-              <span  className="navbar__link-mobile--item-title">archive</span>
+              <span  className="navbar__link-mobile--item-title">personal projects</span>
             </div>
           </NavLink>
         </li>
