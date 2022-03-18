@@ -12,6 +12,7 @@ const CarouselImg = () => {
                 )
             )}
     </React.Fragment> 
-    )}
+    )   
+}
 
 export default CarouselImg;

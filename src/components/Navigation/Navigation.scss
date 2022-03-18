@@ -1,9 +1,12 @@
+@import '../../styles/_fonts.scss';
+@import '../../styles/_colors.scss';
+
 .navbar{
   display: flex;
   flex-direction: column;
   &__link {
-    text-transform: uppercase;
-    line-height: 20px;
+    font-family: $font-body;
+    line-height: 25px;
     animation: taadaa 1.5s;
   }
   @keyframes taadaa { 
@@ -17,12 +20,10 @@
 
 .navbar a{
   text-decoration: none;
-  color: #000000;
   transition: all .2s ease-in;
 }
 .navbar a:hover{
   letter-spacing: 2px;
-  color: #6a7888;
 }
 
 @media only screen and (max-width: 1024px){
@@ -62,7 +63,7 @@
         position: absolute;
       }
       &--item-title{
-        color: #fff;
+        color: $color-white;
         position: absolute;
         bottom: 10px;
         display: flex;
@@ -70,9 +71,6 @@
         width: 100%;
         margin-right: auto;
         margin-left: auto;
-      }
-      &--item-title:hover{
-        color: #6a7888;
       }
     }
   }
@@ -85,13 +83,26 @@
     }
     &__link-mobile{
       &--item{
-        width: 80vw;
+        width: 70vw;
         height: 50vh;
       }
       &--item-img{
-        width: 80vw;
+        width: 70vw;
         height: 50vh;
       }
+    }
+  }
+}
+
+@media only screen and (max-width: 380px){
+  .navbar__link-mobile{
+    &--item{
+      width: 80vw;
+      height: 50vh;
+    }
+    &--item-img{
+      width: 80vw;
+      height: 50vh;
     }
   }
 }

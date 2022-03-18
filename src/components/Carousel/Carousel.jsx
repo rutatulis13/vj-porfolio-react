@@ -14,6 +14,8 @@ class Carousel extends Component {
           autoplay: true,
           autoplayScroll: 1,
           autoplaySpeed: 4000,
+          wheel: true,
+          wheelScroll: 1
         }
       };
 

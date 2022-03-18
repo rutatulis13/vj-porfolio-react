@@ -1,22 +1,21 @@
+@import '../../styles/_colors.scss';
+
 .contact{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     text-decoration: none;
     margin-left: 30px;
+    
     &__info{
         margin-top: 50px;
         line-height: 20px;
+        animation: tada 1.5s;
         &--title{
             font-weight: 900;
             margin-bottom: 20px;
             text-decoration: none;
-            color: #000;
             transition: all .2s ease-in;
-        }
-        &--title:hover{
-                letter-spacing: 2px;
-                color: #6a7888;
         }
     }
     &__background--image{
@@ -25,9 +24,9 @@
             max-width: 80%;
             height:100vh;
             object-fit: cover;
-            animation: taadaa 1.5s;
+            animation: load 1.5s;
         }
-        @keyframes taadaa { 
+        @keyframes load { 
             0% { opacity: 0.5; }
             100% { opacity: 1; }
         }
@@ -37,19 +36,13 @@
             }
             &__homepage-link a{
                 text-decoration: none;
-                color: #6a7888;
+                color: $color-gray;
             }
     }
-
-
-.contact a{
-    text-decoration: none;
-}
 
 @media only screen and (max-width: 1024px){
     .contact{
         flex-direction: column;
-        // margin-left: 0px;
         height: 100%;
         margin-right: 30px;
         position: relative;
@@ -59,13 +52,11 @@
                 font-weight: 900;
                 text-transform: uppercase;
                 text-decoration: none;
-                color: #000;
                 transition: all .2s ease-in;
                 margin-bottom: 5em;
             }
             &--title:hover{
                     letter-spacing: 2px;
-                    color: #6a7888;
                   }
             }
         &__background--image{
@@ -75,7 +66,7 @@
             max-width: 100%;
             height:auto;
             object-fit: cover;
-            animation: taadaa 1.5s;
+            animation: load 1.5s;
         }
         
     }

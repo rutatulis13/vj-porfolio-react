@@ -4,12 +4,12 @@ import { NavLink } from "react-router-dom";
 import Carousel from '../Carousel/Carousel';
 import './Layout.scss'
 
-const Layout = ({title, images}) => {
+const Layout = ({navigation, title, images}) => {
   return (
     <main className="layout">
         <div className="layout__info">
         <div className="layout__info--title">
-            <NavLink to={"/" +  title + "/"}><span className="layout__info--link">{title}</span></NavLink>
+            <NavLink to={"/" +  navigation}><span className="layout__info--link">{title}</span></NavLink>
         </div>
         <div className="layout__info--homepage-link">
             <NavLink to="/home"><span>home</span></NavLink>
@@ -23,6 +23,7 @@ const Layout = ({title, images}) => {
 }
 
 Layout.propTypes = {
+    navigation: PropTypes.string,
     title: PropTypes.string,
     images: PropTypes.array,
     children: PropTypes.node,

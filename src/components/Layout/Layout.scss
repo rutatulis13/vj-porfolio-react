@@ -1,34 +1,25 @@
+@import '../../styles/_colors.scss';
+@import '../../styles/_mixins.scss';
+
 .layout{
     position:relative;
     &__info--title{
-            margin-top: 50px;
-            position: absolute;
+            @include text-block-style;
             margin-left: 30px;
-            display: block;
-            text-decoration: none;
+            margin-top: 50px;
             z-index: 11;
         }
 
         &__info--title a{
             text-decoration: none;
-            color: black;
-        }
-        
-        &__info--title:hover{
-            color: #6a7888; 
+            color: $color-gray;
         }
 
-        &__info--link{
-            text-decoration: none;
-            color: black;
-        }
         &__info--homepage-link a {
-            position: absolute;
+            @include text-block-style;
             z-index: 10;
             bottom: 50px;
             margin-left: 30px;
-            display: block;
-            text-decoration: none;
-            color: #6a7888;
+            color: $color-gray;
         }
 }

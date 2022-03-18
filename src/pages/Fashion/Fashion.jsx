@@ -11,7 +11,7 @@ const Fashion = () => {
   const findGallery = galleries.find(image => image.id === parseInt(id))
 
   return(
-      <Layout title="fashion" images={findGallery.gallery}/>
+      <Layout navigation="fashion" title="fashion" images={findGallery.gallery}/>
    ) 
 }
 

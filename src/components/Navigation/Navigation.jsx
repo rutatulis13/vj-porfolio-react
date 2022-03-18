@@ -10,7 +10,7 @@ const Navigation = () => {
     <nav className="navbar">
       <ul className="navbar__link">
         <li className="navbar__link--item">
-          <NavLink to="/archive"><span>archive</span></NavLink>
+          <NavLink to="/personal-projects"><span>personal projects</span></NavLink>
         </li>
         <li className="navbar__link--item">
           <NavLink to="/fashion"><span>fashion</span></NavLink>

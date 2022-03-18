@@ -4,9 +4,8 @@ import Layout from '../../components/Layout/Layout.jsx'
 import availableImg from '../../components/constants/archiveImg.js';
 
 const Archive = () => {
-  console.log(availableImg)
   return (
-    <Layout title="archive" images = {availableImg} />
+    <Layout navigation="personal-projects" title="personal projects" images = {availableImg} />
   )
 }
 

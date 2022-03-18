@@ -8,7 +8,7 @@ const Contact = () => {
     <div className="test">
    <div className="contact">
       <div className="contact__info">
-        <NavLink to="/contact"><h2 className="contact__info--title">contact</h2></NavLink>
+        <h2 className="contact__info--title">contact</h2>
         <span className="contact__info--text">+37069220156</span><br/>
         <span className="contact__info--text">vjokubauskas@gmail.com</span>
       </div>
