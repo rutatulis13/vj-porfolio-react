@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import Slider from 'infinite-react-carousel';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 import PropTypes from "prop-types";
 import './Carousel.scss';
 
@@ -35,7 +36,7 @@ class Carousel extends Component {
           >
           {this.props.imgArr.map(image => (
             <div className="carousel" key={image}>
-              <img className="carousel__img" src={image} alt=""></img>
+              <LazyLoadImage className="carousel__img" effect="blur" src={image} alt=""/>
             </div>
             ))
           }
