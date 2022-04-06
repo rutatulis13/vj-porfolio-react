@@ -1,22 +1,22 @@
 //front images dydis 700 ant 350 - apie 70 kb
-import frontIMG from "../../assets/fashionFront/1_0001.jpg";
-import front2IMG from "../../assets/fashionFront/1_0002.jpg";
-import front3IMG from "../../assets/fashionFront/1_0003.jpg";
-import front4IMG from "../../assets/fashionFront/1_0004.jpg";
-import front5IMG from "../../assets/fashionFront/1_0005.jpg";
-import front6IMG from "../../assets/fashionFront/1_0006.jpg";
-import front7IMG from "../../assets/fashionFront/1_0007.jpg";
-import front8IMG from "../../assets/fashionFront/1_0008.jpg";
+import frontIMG from "../../assets/fashionFront/1_0002.jpg";
+import front2IMG from "../../assets/fashionFront/1_0003.jpg";
+import front3IMG from "../../assets/fashionFront/1_0004.jpg";
+import front4IMG from "../../assets/fashionFront/1_0005.jpg";
+import front5IMG from "../../assets/fashionFront/1_0006.jpg";
+import front6IMG from "../../assets/fashionFront/1_0007.jpg";
+import front7IMG from "../../assets/fashionFront/1_0008.jpg";
+import front8IMG from "../../assets/fashionFront/1_0001.jpg";
 import front9IMG from "../../assets/fashionFront/1_0009.jpg";
 import front10IMG from "../../assets/fashionFront/1_0010.jpg";
 import front11IMG from "../../assets/fashionFront/1_0011.jpg";
 import front12IMG from "../../assets/fashionFront/1_0012.jpg";
 //1 gallery
-import front1 from "../../assets/gallery1/gallery1_0001.jpg";
-import front2 from "../../assets/gallery1/gallery1_0002.jpg";
-import front3 from "../../assets/gallery1/gallery1_0003.jpg";
-import front4 from "../../assets/gallery1/gallery1_0004.jpg";
-import front5 from "../../assets/gallery1/gallery1_0005.jpg";
+import front1 from "../../assets/gallery1/1.jpg";
+import front2 from "../../assets/gallery1/2.jpg";
+import front3 from "../../assets/gallery1/3.jpg";
+import front4 from "../../assets/gallery1/4.jpg";
+import front5 from "../../assets/gallery1/5.jpg";
 //2 gallery
 import gal22img1 from "../../assets/gallery2/fashion3pvz_0001.jpg";
 import gal22img2 from "../../assets/gallery2/fashion3pvz_0002.jpg";
@@ -159,7 +159,7 @@ import gal12img7 from "../../assets/gallery12/7.jpg";
 const galleries = [
     { front: frontIMG,
       title: "Laime Magazine",
-      gallery: [front1, front2, front3, front4, front5, frontIMG],
+      gallery: [front1, front2, front3, front4, front5],
       id: 1,
     },
     { front: front2IMG,
