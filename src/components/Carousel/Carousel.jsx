@@ -36,7 +36,7 @@ class Carousel extends Component {
           >
           {this.props.imgArr.map(image => (
             <div className="carousel" key={image}>
-              <LazyLoadImage className="carousel__img" effect="blur" src={image} alt=""/>
+              <LazyLoadImage className="carousel__img" delayTime="4000" effect="blur" src={image} alt=""/>
             </div>
             ))
           }
