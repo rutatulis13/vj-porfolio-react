@@ -1,8 +1,8 @@
 import React from 'react'
 import { NavLink } from "react-router-dom";
-import archiveImg from "../../assets/personal/archiveIcon.jpg"
+import archiveImg from "../../assets/personal/1.jpg"
 import fashionImg from "../../assets/homepageIcon.jpg"
-import contactImg2 from "../../assets/fashionFront/fashion_0005.jpg"
+import contactImg2 from "../../assets/fashionFront/1_0005.jpg"
 import './Navigation.scss'
 
 const Navigation = () => {
